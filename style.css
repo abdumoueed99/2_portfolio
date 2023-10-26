@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 30);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+
+    color: rgb(154, 154, 227);
+    font-size: 1.4rem;
+
+}
+
+main hr {
+    background-color: blueviolet;
+    margin: 40px 84px;
+    height: 1.2px;
+    border: 0px;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+
+}
+
+.firstsection>div {
+
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.leftsection .button {
+    padding: 23px;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background-color: rgb(49, 22, 75);
+    color: white;
+    border: 2px solid white;
+    border-radius: 13px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.rightsection img {
+    width: 80%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: blueviolet;
+    font-size: 2.5rem;
+    font-style: oblique;
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: blueviolet;
+    margin: 0 100px;
+}
+
+.img-top {
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-desc {
+    position: relative;
+    font-size: 9px;
+    width: 150px;
+    top: 86px;
+    color: gray;
+}
+
+footer {
+    background-color: rgb(17, 17, 76);
+    height: 233px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer-first h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-second li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.shop-section a {
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.box {
+    height: 350px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 23px;
+    text-align: center;
+}
+
+.box-img img {
+    height: 69%;
+    width: 96%;
+}
+
+.box-content {
+    margin-left: 0.3rem;
+
+}
+
+.box-content a {
+    color: #007185;
+
+}
